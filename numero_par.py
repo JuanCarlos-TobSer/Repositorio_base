@@ -1,8 +1,8 @@
 '''Pedir dos numeros y determinar cual es par,
 o si ambos lo son.'''
 
-num1 = float(input("Digite primer numero: "))
-num2 = float(input("Digite segundo numero: "))
+num1 = int(input("Digite primer numero: "))
+num2 = int(input("Digite segundo numero: "))
 
 if num1%2==0 and num2%2==0:
 	print("Ambos numeros son pares")
